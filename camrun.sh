@@ -8,9 +8,6 @@
 # 20180105 cmgrass
 #
 
-
-
-
 # params
 CMDPATH="/home/pi/mjpg-streamer/mjpg-streamer-experimental/"
 MINVAL=5
@@ -33,6 +30,7 @@ exec_error_out()
   echo "      -> Camera"
   echo "        -> Enable Camera?"
   echo "          -> Yes"
+  exit 1
 }
 
 post_urls()
